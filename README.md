@@ -1,18 +1,21 @@
-# Obsidian Canvas Context Plugin
+# Obsidian Canvas Context Plugin (with Google Gemini Support)
+
+> [!IMPORTANT]
+> This is a fork of `ff6347/obsidian-canvas-context` that adds native support for **Google Gemini (Google AI)** models.
 
 This plugin uses the Obsidian Canvas to control what context gets send to a LLM. With chat tools like ChatGPT.com we can not be sure which information is send to the LLM. Here we have full control over what gets send and what not.
 We (this is I) also use the spatial arrangment on the canvas for better navigation of our context.
-This is a pretty early stage of an idea and I am not sure if this might get useful or not.
 
-
-![a short video showing the usage of the plugin](docs/demo.gif)
+## ✨ Added Features in this Fork
+- **Google Gemini Integration**: Native support for Gemini 1.5 Pro, Flash, and other Google AI models.
+- **Enhanced AI SDK**: Upgraded to Vercel AI SDK v6 to support the latest Gemini v3 specifications.
 
 ## Prerequisites
 
 - [Obsidian](https://obsidian.md) 1.9.12 or higher
-- [Ollama](https://ollama.com) or [LM Studio](https://lmstudio.ai) installed.
-- The local server of one of the two enabled and a model downloaded.
-- Alternative a OpenAI API key if you want to use OpenAI models.
+- **Google Gemini**: A Google AI API key from [Google AI Studio](https://aistudio.google.com/).
+- **Ollama** or **LM Studio** installed (for local models).
+- Alternative a OpenAI or OpenRouter API key if you want to use their models.
 
 ## Rules
 
